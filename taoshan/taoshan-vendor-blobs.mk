@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/bin/ks:system/bin/ks \
     vendor/sony/taoshan/proprietary/bin/led_deamon:system/bin/led_deamon \
     vendor/sony/taoshan/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/sony/taoshan/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/taoshan/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/taoshan/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/taoshan/proprietary/bin/qrngd:system/bin/qrngd \
@@ -65,7 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/taoshan/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/sony/taoshan/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
-    vendor/sony/taoshan/proprietary/lib/hw/lights.vendor.msm8960.so:system/lib/hw/lights.vendor.msm8960.so \
+    vendor/sony/taoshan/proprietary/vendor/lib/hw/lights.vendor.msm8960.so:system/vendor/lib/hw/lights.vendor.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.vendor.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/taoshan/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
@@ -171,4 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/sony/taoshan/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/sony/taoshan/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/sony/taoshan/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/sony/taoshan/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/sony/taoshan/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/sony/taoshan/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so
